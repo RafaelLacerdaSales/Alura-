@@ -134,3 +134,80 @@ margin-left: 1em;
 .container__botao:active{
     background-color: #1358ac;
 }
+.segundo__rodape{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.insta{
+    font-family: var(--fonte-principal);
+    font-size: 15px;
+    list-style-type: none;
+    border: 2px solid black;
+    padding: 0.5em;
+    background-image: linear-gradient(to right, red 1%,blue);
+    border-radius: 10px;
+    width: 30em;
+}
+.insta a{
+    text-decoration: none;
+    color: var(--branco-principal);
+}
+.insta:active{
+    background-image: linear-gradient(to right, blue 1%,red);
+}
+.linkd a{
+    text-decoration: none;
+    color: var(--branco-principal);
+}
+.linkd{
+    font-family: var(--fonte-principal);
+    font-size: 15px;
+    list-style-type: none;
+    border: 2px solid black;
+    padding: 0.5em;
+    background-image: linear-gradient(to right, rgb(55, 102, 255) ,rgb(0, 0, 255));
+    border-radius: 10px;
+    width: 30em;
+    
+}
+.linkd:active{
+    background-image: linear-gradient(to right, rgb(0, 30, 129) ,rgb(1, 1, 108));
+}
+
+.linkd__img{
+    width: 17px;
+}
+.insta__img{
+    width: 17px;
+}
+
+
+
+@media screen and (max-width:768px) {
+    .container{
+        display: block;
+        background-image: none;
+    }
+    .container__imagem{
+        width: 50vw;
+
+    }
+    .container__caixa{
+        margin: 2em 2em;
+    }
+    .secundario{
+        margin: 0;
+        text-align: center;
+    }
+    .secundario__imagem{
+        width: 50vw;
+    }
+    .dispositivos__lista{
+        display: block;
+    }
+    .rodape__lista{
+        display: block;
+    }
+    
+}

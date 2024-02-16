@@ -210,4 +210,13 @@ margin-left: 1em;
         display: block;
     }
     
+    .linkd{
+        width: 50%;
+        font-size: 14px;
+    }
+    .insta{
+        width: 50%;
+        font-size:14px ;
+    }
+    
 }
